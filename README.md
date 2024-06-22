@@ -5,4 +5,5 @@ AI Image Generator
 Built using tailwind ,react js and using open AI API.
 
 Demo: https://self-ai-image-generator.netlify.app/
+
 Code: https://github.com/Nitarya/AI-Image-Generator.git
