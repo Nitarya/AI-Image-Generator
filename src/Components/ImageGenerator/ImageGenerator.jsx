@@ -21,8 +21,8 @@ const imageGenerator = async () => {
             headers:{
                 "Content-Type":"application/json",
                 Authorization:
-                "YOUR_API_KEY",
-                "User-Agent":"Chrome"
+                "Bearer 'YOUR API KEY'",
+                // "User-Agent":"Chrome"
             },
             body:JSON.stringify({
                 prompt: `${inputRef.current.value}`,
@@ -36,7 +36,7 @@ const imageGenerator = async () => {
     let data = await response.json();
    let data_array = data.data;
    setImage_url(data_array[0].url)
-setLoading(fa)
+setLoading(false)
 }
 
   return (
