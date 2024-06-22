@@ -7,7 +7,9 @@ Built using tailwind ,react js and using open AI API.
 In ImageGenerator.jsx file you have to use your own API Key in the code provided below.
 
 
+
  {
+ 
             method: "POST",
             
             headers:{
