@@ -8,12 +8,16 @@ In ImageGenerator.jsx file you have to use your own API Key in the code provided
 
 
  {
+ 
             method: "POST",
+            
             headers:{
                 "Content-Type":"application/json",
+                
                 Authorization:
                 "Bearer 'YOUR_API_KEY'",
                 // "User-Agent":"Chrome"
+                
             },
 
 Demo: https://self-ai-image-generator.netlify.app/
